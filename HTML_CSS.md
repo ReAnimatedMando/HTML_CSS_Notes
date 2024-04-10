@@ -10,3 +10,8 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 *    Tags act like containers. They tell you something about the information that lies between their opening and closing tags. 
 *    Attributes provide additional info about the contents of an element. They appear on the opening tag of the element and consist of a Name and a Value separated by =. p lang=”en-us”, Here the attribute lang is language and en-us specifies English-United States. Majority of attributes can only be used on certain elements. 
 *    Before a body element (one shown within the web browser), you will often see a head element. This is info about the page (also known as meta data), often a title. head, title. - - Anything written between the title tags will appear in the title bar at the top of the browser window.  
+
+## Headings
+
+*   HTML has 6 levels of headings. h1 - h6
+*   h1 elements are the largest and get smaller as you progress. Of course, you can control the size of text, as well as font, and color. This will be explored further in CSS.
