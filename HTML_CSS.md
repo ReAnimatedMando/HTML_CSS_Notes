@@ -15,3 +15,7 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 
 *   HTML has 6 levels of headings. h1 - h6
 *   h1 elements are the largest and get smaller as you progress. Of course, you can control the size of text, as well as font, and color. This will be explored further in CSS.
+
+## Paragraphs
+
+*   p, by default, a browser will show each paragraph on a new line with some space between it and the subsequent paragraph
