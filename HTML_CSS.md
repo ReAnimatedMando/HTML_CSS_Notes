@@ -19,3 +19,11 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 ## Paragraphs
 
 *   p, by default, a browser will show each paragraph on a new line with some space between it and the subsequent paragraph
+
+## Bold & Italic
+
+*   Bold b, and Italic i.
+*   Using these tags will make words enclosed in these elements appear bold or italic. 
+*   b also represents a section of text that would be presented in a visually different way, such as key words in a paragraph.
+*   i also represents a section of text that would be said in a different way from surrounding content, such as technical terms, names of ships, foreign words, thoughts, or other terms that would usually be italicized.
+
