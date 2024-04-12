@@ -27,3 +27,8 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 *   b also represents a section of text that would be presented in a visually different way, such as key words in a paragraph.
 *   i also represents a section of text that would be said in a different way from surrounding content, such as technical terms, names of ships, foreign words, thoughts, or other terms that would usually be italicized.
 
+## Superscript & Subscript
+
+*	sup or superscript examples are 4th and or 2 to the second power.
+*	sub or subscript examples are CO2 as a chemical formula and footnotes.
+
