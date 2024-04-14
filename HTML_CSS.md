@@ -32,3 +32,13 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 *	sup or superscript examples are 4th and or 2 to the second power.
 *	sub or subscript examples are CO2 as a chemical formula and footnotes.
 
+## White Space
+
+*	White space collapsing is what happens when a browser comes across 2 or more spaces next to each other and it automatically only displays 1 space.
+*	Authors will take advantage of this to make their code easier to read. 
+
+## Line Breaks & Horizontal Rules
+
+*	br /, unlike when a p or h1 are shown on new lines, you can use br / to add a line break in the middle of a paragraph. 
+*	To create a break between themes, such as a change of topic in a book, or a new scene in a play, you can add a horizontal rule using, hr /. 
+*	These are also known as empty elements given that there are no words between an opening and closing tag. Hence, there is usually only one tag to an empty element and have a space before the slash, br /. 
