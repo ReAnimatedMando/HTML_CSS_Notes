@@ -42,3 +42,10 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 *	br /, unlike when a p or h1 are shown on new lines, you can use br / to add a line break in the middle of a paragraph. 
 *	To create a break between themes, such as a change of topic in a book, or a new scene in a play, you can add a horizontal rule using, hr /. 
 *	These are also known as empty elements given that there are no words between an opening and closing tag. Hence, there is usually only one tag to an empty element and have a space before the slash, br /. 
+
+## Semantic Markup
+
+*	Some text elements are not intended to affect the structure of your web page, but instead add extra information to the page.
+*	For example, the voice of a screen reader (accessibility is a requirement for all web pages), would know to emphasize certain words when the em element is used. Or a search engine would register the use of a quote if the blockquote element is used. 
+*	Their purpose is to describe the content of your page more accurately. 
+
