@@ -49,3 +49,15 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 *	For example, the voice of a screen reader (accessibility is a requirement for all web pages), would know to emphasize certain words when the em element is used. Or a search engine would register the use of a quote if the blockquote element is used. 
 *	Their purpose is to describe the content of your page more accurately. 
 
+## Strong & Emphasis
+
+*	The use of the strong element indicates the content has a strong importance and browsers will show these elements in bold lettering. 
+*	The use of the em element shows a more subtle emphasis by showing the words in italics. 
+
+## Quotations
+
+*	There are two elements commonly used for marking up quotations. 
+*	blockquote is used for longer quotes that take an entire paragraph. Note the a <p> element is still used in a blockquote element. Browsers tend to indent the contents of the blockquote element but you should not use it as an indent.
+*	q is used for shorter quotes. Browsers are supposed to put “quotation” marks around these elements, however Internet Explorer does not so authors tend to avoid this tag. 
+*	Both elements may use the cite attribute to indicate where the quote is from. Its value should be a URL that will have more information about the source. blockquote cite=http://en.wikipedia.org/wiki/Winnie-the-Pooh
+
