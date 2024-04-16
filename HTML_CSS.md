@@ -61,3 +61,12 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 *	q is used for shorter quotes. Browsers are supposed to put “quotation” marks around these elements, however Internet Explorer does not so authors tend to avoid this tag. 
 *	Both elements may use the cite attribute to indicate where the quote is from. Its value should be a URL that will have more information about the source. blockquote cite=http://en.wikipedia.org/wiki/Winnie-the-Pooh
 
+## Abbreviations & Acronyms
+
+*	abbr is used when you want to specify an abbreviation. For example, p abbr title=”professor”>Profabbrs.
+*	Older verions of HTML included acronym, However abbr can now be used for both abbreviations and acronyms.
+
+## Citations & Definitions
+
+*	To reference a piece of work such as a book, journal, movie…. The cite element can be used. Browsers will render a cite element in italics. 
+*	dfn or definition element is used when first explaining new terminology or concepts. Also known as its defining instance. The appearance of the dfn element is not always changed depending on the browser. p A dfnblack holedfn is a region of space from which nothing, not even light, can escape.p 
