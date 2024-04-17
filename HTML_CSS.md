@@ -75,7 +75,7 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 
 *	<address> elements contain contact details for the author of the page. This can be a physical address, email address, or phone number. Most browsers display this element in italics. 
 *	Example: <address>
--    pa href=mailto:homer@example.org
+    -    pa href=mailto:homer@example.org
         homer@example.orgap
--    p742 Evergreen Terrace, Springfield.p
--    address     
+    -    p742 Evergreen Terrace, Springfield.p
+    -    address     
