@@ -70,3 +70,12 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 
 *	To reference a piece of work such as a book, journal, movie…. The cite element can be used. Browsers will render a cite element in italics. 
 *	dfn or definition element is used when first explaining new terminology or concepts. Also known as its defining instance. The appearance of the dfn element is not always changed depending on the browser. p A dfnblack holedfn is a region of space from which nothing, not even light, can escape.p 
+
+## Author Details
+
+*	<address> elements contain contact details for the author of the page. This can be a physical address, email address, or phone number. Most browsers display this element in italics. 
+*	Example: <address>
+-    pa href=mailto:homer@example.org
+        homer@example.orgap
+-    p742 Evergreen Terrace, Springfield.p
+-    address     
