@@ -79,3 +79,9 @@ Much like a newspaper/word document, a web page is designed with headings, conte
         homer@example.orgap
     -    p742 Evergreen Terrace, Springfield.p
     -    address     
+
+## Changes to Content
+
+*	ins Element is used to show content that has been inserted into a document and is rendered with the content underlined.
+*	del Element is used to show content that has been deleted from a document and is rendered with a line through the content.
+*	s Element is used when content is no longer relevant or accurate but should not be deleted and is rendered as having a line through the content contained in the element.
