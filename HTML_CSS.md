@@ -85,3 +85,11 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 *	ins Element is used to show content that has been inserted into a document and is rendered with the content underlined.
 *	del Element is used to show content that has been deleted from a document and is rendered with a line through the content.
 *	s Element is used when content is no longer relevant or accurate but should not be deleted and is rendered as having a line through the content contained in the element.
+
+## Lists
+
+*	Ordered lists are tagged ol and then each element in the list is tagged with its own li. They can be given an attribute to indicate the type of number, letter, roman numerals… but this is better styled using CSS. 
+*	Unordered lists are tagged ul and like ordered lists each item is tagged lili. Also, like ordered lists, each item may be given an attribute to specify what type of bullet point (circle, squares, diamonds) … but again this is better stylized using CSS.
+*	Definition lists are elements that usually consist of a series of terms and their definitions and are tagged dl. These Consist of both dt and dd elements, dt being the term that’s being defined, and dd being the definition of said term. 
+*	Nested lists are sub lists that rest inside li elements such as the dark bullets followed by indented clear bullets used in the format of these notes. 
+
