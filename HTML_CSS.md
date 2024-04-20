@@ -93,3 +93,19 @@ Much like a newspaper/word document, a web page is designed with headings, conte
 *	Definition lists are elements that usually consist of a series of terms and their definitions and are tagged dl. These Consist of both dt and dd elements, dt being the term that’s being defined, and dd being the definition of said term. 
 *	Nested lists are sub lists that rest inside li elements such as the dark bullets followed by indented clear bullets used in the format of these notes. 
 
+## Links
+
+*	Types of links include from one website to another, from one page to another within the same website, from one part of a website to another, links to another browser window or tab, links that start up your email program and address a new email to someone else. 
+*	Links are created using the a element. Example, 
+a href=”http://www.imdb.com”>IMDB a. The last part of the element, IMDB, is the text the user sees and clicks on. This text should be user friendly, easy for users to know where the link is taking them.
+*	Remember the a attribute element for a link will contain the href attribute and if you are directing them to a different website will need to contain the full web address. Browsers show links to websites in blue and underlined. 
+*	Absolute and Relative URLS. URL stands for Uniform Resource Locator. Absolute URL starts with the domain name for that site and can be followed by the path to a specific page (.com). Relative URL is when you are linking to other pages within the same site (.html). They are a shorthand version of absolute URL.
+*	On larger sites it is good practice to organize your code by placing the pages for each different section of the site into a new folder. Folders on a site are also referred to as directories (HTML&CSS pg. 82). 
+    -	Relationships are used when referring to files and folders. The root folder (examplearts) is also the parent folder. The next group of sub-folders would be the children. The parent folder is also the grandparent folder to the sub-sub-folder, the grandchild. 
+    -	The homepage of the site is index.html. So, the address to this site would be, www.examplearts.com/index.html. Within the index are the children, images, movies, music, and theater. The address to the logo for the site which sits in the images folder would be, examplearts.com/images/logo.gif. Grandchildren in this directory would be folders within movies, cinema, and dvd.
+*	Email links open the users email program and addresses a specific email address. For these the href must include a mailto: attribute. 
+a href=mailto:the_guma@yahoo.com>email Aaron/a.
+*	When you want a link to open in a new window you use the target attribute. a href=http://www.imdb.com target=:blank” Internet movie database/a (opens in new window). Generally, this should be avoided, but when used, users should be notified.
+*	When on a website that is one long page you may want to add links that direct users to lower down a page, midway, or back to top of the page. This saves users time from scrolling. You would do this by first adding id= to that particular part of the page in your html. Example, h1 id=”top”the first paragraph/h1. The link to this section would look like this… a href=”#top”>top/a
+*	To link to a specific part of another page the technique is the same except you would precede the location with the absolute or relative URL.  
+a href=”http://www.htmlcssbook.com/#bottom
