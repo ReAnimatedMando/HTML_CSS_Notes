@@ -109,3 +109,23 @@ a href=mailto:the_guma@yahoo.com>email Aaron/a.
 *	When on a website that is one long page you may want to add links that direct users to lower down a page, midway, or back to top of the page. This saves users time from scrolling. You would do this by first adding id= to that particular part of the page in your html. Example, h1 id=”top”the first paragraph/h1. The link to this section would look like this… a href=”#top”>top/a
 *	To link to a specific part of another page the technique is the same except you would precede the location with the absolute or relative URL.  
 a href=”http://www.htmlcssbook.com/#bottom
+
+## Images
+
+*	Goals for IMG: Pick a format, display at correct size, optimize image for use on the web to make pages load faster. Images should also be relevant, convey information, be instantly recognizable, and fit the pages color palette. 
+*	Images for a project should be well organized and be broken up into sub folders such as logos, banners, buttons, product photos … 
+*	An img is empty so it has no closing tag. Within it must be a src= which tells the browser where it can find the image (usually a relative URL). Second it must contain a alt= which provides a description of the img. A title= attribute gives additional information about the img, and browsers can use this information to populate tooltips when the user hovers their cursor over the image. Alt text should give accurate information because the screen reader will use this for those with impairments. 
+*	Height & Width of Images. These attributes within the element will specify the img height and width. This, however, is mostly done within CSS. 
+*	Location of img within code can come before, inside the start, or in the middle of the p element. Remember that elements occupy their own line so an img before p would sit above that paragraph on its own line, one inside the start of p would be one the same line as the first paragraph line, and one within p would sit in the middle with the words on that line flowing around it. Images can also be aligned vertically, as well as left and right of words, but this only comes up in old code. 
+*	3 golden rules to remember when creating images for your web page.
+    -	Save the images in the right format: .jpeg, .gif, or .png. Failure to do so could result in poor image quality and it can also make the web page slower to load.
+    -	Save images at the right size: You should have the image saved at the same width and height that you will have it displayed on your page. If it’s smaller, it will be distorted and stretched and if it’s bigger it will take longer to display on your page. Sizing images should be done well in a photo editor, and you should always think in terms of pixels. Images downloaded from the internet should be checked for size and more importantly, copyright. 
+*	Image Formats
+    -	.JPEG should be used when you have many different colors in a picture.
+    -	.GIF & .PNG should be used when you have pictures that are flat and have large areas filled with the same color such as logos, illustrations, and diagrams. 
+        *	Note that pictures of snow, sky, or grass are not flat and contain many colors, therefore should be formatted .JPEG.
+*	Vector images are line drawings such as logos, illustrations, and diagrams, created in software such as Adobe Illustrator and can be resized without affecting quality. 
+*	Animated GIFs can be created in photoshop and included in your web page, but this adds to file size and can slow downloading which should be avoided. 
+*	Transparent images can also be used as either straight (GIF), or diagonal, round, semi-opaque, drop-shadow. (PNG)
+*	Figure and figure caption: Add images with a caption by using the figure element which will contain your img info and caption all in one element. figcaption can be used to add a caption to an existing element. 
+
