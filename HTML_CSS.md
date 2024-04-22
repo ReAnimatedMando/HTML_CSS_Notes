@@ -129,3 +129,11 @@ a href=”http://www.htmlcssbook.com/#bottom
 *	Transparent images can also be used as either straight (GIF), or diagonal, round, semi-opaque, drop-shadow. (PNG)
 *	Figure and figure caption: Add images with a caption by using the figure element which will contain your img info and caption all in one element. figcaption can be used to add a caption to an existing element. 
 
+## Tables
+
+*	When presenting information in tables you need to think in terms of a grid made up of rows and columns. 
+*	Basic table structure - table element is used to create the table and the contents of that table are written row by row. tr stands for table row. Within it is the element td or table data, there is one td for each row and ended with /tr before starting the next tr or row.  
+*	The th or table heading element is like td but instead represents the headings of each row or column. th can be used with a scope= element to indicate if it is a column or row. 
+th scope=”col”>Saturday /th 
+*	Sometimes you may need entries in a table to stretch across more than one column. This is called spanning columns. This is done using a colspan attribute and can be applied to a td or th element. Adding a number to a colspan attribute will determine how many columns it spans. td colspan=”2”>Geography /td will make geography span 2 columns. The same can be done for rows using the rowspan= attribute. td rowspan=”2”>movie /td
+*	Long tables like long pages can contain headers and footers to help distinguish between elements in the table that may differ. These elements are thead, tbody, and tfoot. 
