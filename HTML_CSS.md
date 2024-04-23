@@ -137,3 +137,21 @@ a href=”http://www.htmlcssbook.com/#bottom
 th scope=”col”>Saturday /th 
 *	Sometimes you may need entries in a table to stretch across more than one column. This is called spanning columns. This is done using a colspan attribute and can be applied to a td or th element. Adding a number to a colspan attribute will determine how many columns it spans. td colspan=”2”>Geography /td will make geography span 2 columns. The same can be done for rows using the rowspan= attribute. td rowspan=”2”>movie /td
 *	Long tables like long pages can contain headers and footers to help distinguish between elements in the table that may differ. These elements are thead, tbody, and tfoot. 
+
+## Forms
+
+*	Like a hard copy form that someone would fill out to provide you with information, a form on your website aims to collect data from your visitors. These forms include but are not limited to, search boxes, subscription buttons, and multiple-choice options. 
+*	To differentiate between inputted data, information is traded from the browser to the server using name/value pairs. If the form allows text input, the name would be the username box, and the value would be the name entered by the user. If the form is multiple choice button based, the vote would be the name and the button selected, “Herbie”, would be the value. 
+*	form elements always carry action= attributes. Its value is the URL for the page on the server that will receive the information in the form when submitted. 
+*	input element is used to create several different form controls. The type= attribute determines if the form is text, radio, checkbox, submit, file etc. When users enter information, the server needs to know which form controls each piece of data that was entered. i.e. what’s been entered a username or a password? Maxlength= attribute can be used to set a limit of what a user is able to enter into a text box. 
+*	When a type= element has a value of “password”, the box acts the same as a text box, but knows to block out the le****s. 
+*	textarea element is used to create multi-line text input. This is used for comment boxes etc. 
+*	Type=”radio” buttons allow users to pick one of a few options. Here the name= attribute should be the same for all options, the value= attribute indicates the value that is chosen and sent back to the server, and each should differ. A checked= attribute can be used to load the form with one, if any, values already checked. Radio buttons cannot be deselected, and this should be noted, if you want deselect as an option you should use a checkbox. 
+*	Type=”checkbox” allow users to select and deselect one or more options. Like radio, name= is sent to the server with the value of the options the user selects and should be uniform across elements. value= is unique naming the box the user selects. checked= determines which, if any, boxes should load checked. 
+*	select elements are used for dropdown lists. They contain 2 or more options the option element names these with value= attributes. To create a box that gives users the ability to select multiple options, the attribute of multiple= is added to the select element. 
+*	When allowing users to upload files input type=”file” name=”user-song” /, the form element must have a value of “post”, instead of “get”. 
+*	input type=”submit” is used to send a form to the server. name= is used to name attribute. value= controls the text that appears on the button. If you want to use an image for the subscribe button, you can use value= to link an image in the input element. button> elements give users more control over how their buttons appear. 
+*	Each form control should be given its own label using label> elements after the input>. This can be put ahead of the input, or after, separating the radio button from its label. This is given the for=”” attribute which coincides with the id=”” within the input. 
+*	fieldset> can be used for longer forms that contain more information. This groups them similarly to tables. legend> is used to caption and identify the purpose of the fieldset.
+*	Required= is HTML5 version of form validation. This makes it so validation happen within the browser and saves time spent on server validation. 
+*	Email, dates, and search boxes can also be created using input> by simply changing the type=”” attribute to “search”, “email”, or “date”. 
