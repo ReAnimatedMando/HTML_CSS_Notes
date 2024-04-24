@@ -155,3 +155,17 @@ th scope=”col”>Saturday /th
 *	fieldset> can be used for longer forms that contain more information. This groups them similarly to tables. legend> is used to caption and identify the purpose of the fieldset.
 *	Required= is HTML5 version of form validation. This makes it so validation happen within the browser and saves time spent on server validation. 
 *	Email, dates, and search boxes can also be created using input> by simply changing the type=”” attribute to “search”, “email”, or “date”. 
+
+## Comments, Attributes, & more
+
+*	Be aware of older versions of HTML (HTML4, XHTML 1.0, XML), so that you are aware of what features won’t be available to some users due to outdated browsers. 
+*	octype html>. Doctypes were created to include in your meta data in order to specify what version of HTML you are using. This can help in the web page being rendered correctly. 
+*	Comments can be added to code using !-- -->. Comments using this element are not visible by users and can help authors and collaborators understand the code. Comments are also helpful if the author wants to make a note to add something later but doesn’t yet have the file needed. For example, <-- add link here --> 
+*	ID attributes can be added to any element and will give that element a unique identifier that can be targeted when styling with CSS. Any id given must be entirely unique to that element, possessed by none other on the page. 
+*	Class attributes are other identifiers that can be given to many elements. In other words, many elements can be given a class as class=”important”. This is another attribute that would correlate to a command given in CSS. 
+*	Block elements are elements that will always appear to start on a new line. i.e. h1>, p>, ul>, and li>.
+*	Inline elements will always appear to continue on the same line. i.e. a>, b>, em>, and img>. 
+*	div> or divisions help group sets of elements together in one block-level box. This helps in styling and organization. Since div> hold many elements within it, it is wise to add comments to tell yourself and others what division that code belongs to. For example, you would make a header division (for title and logo), or a comment section division (for users to leave comments). 
+*	Span or span> is the inline element that contains text you want to differentiate from the rest of the paragraph and can be identified and styled with CSS. 
+*	Iframes or iframe> are windows cut into your page. An example of this would be an embedded google map. To structure an iframe> you will need to know info for the attributes, src=”http://google.maps”, height=”350”, and width=”450”. 
+*	Meta data lives in the head> of your page and is not visible to users. It is simply information about your code such as description, keywords, author info, pragma (keeps browser from caching page), expires (notes when page should no longer be cached). 
