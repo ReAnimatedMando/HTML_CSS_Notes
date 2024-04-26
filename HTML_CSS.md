@@ -189,3 +189,13 @@ th scope=”col”>Saturday /th
     -	It also keeps the content separate from how the page looks. 
     -	You cannot change across all pages and would have to make changes to each individual element on each page. 
 
+## CSS Selectors
+
+*	Universal selector – Apply to all elements in document. * {}
+*	Type selector – Matches element names. H1, h2, h3 {}
+*	Class selector – Matches an element whose class attribute has a value that matches the one specified after the period or full stop symbol. .note {} – targets element whose class attribute has a value of note. P.note {} – targets only p> element whose class attribute has a value of note. p class=”note” />
+*	ID selector – Matches an element whose id attribute has a value that matches the one specified after the pound or hash symbol. #introduction {} – targets the element whose id attribute has a value of introduction. h1 id=”introduction” />
+*	Child selector – Matches an element that is a direct child of another. Li>a {} – targets any a> element that are children of another li> element but no other a> elements on that page. 
+*	Descendant selector – Matches an element that is a descendant of another specified element not just a direct child of that element. P a {} – targets any a> elements that sit inside a p> element, even if there are other elements nested between. 
+*	Adjacent sibling selector – Matches an element that is the next sibling of another. H1+p {} – targets the first p> element after any h1> element but not other p> elements.
+*	General sibling selector – Matches an element that is a sibling of another, although it does not have to be the directly preceding element. H1~p {} – if you had two p> elements that are siblings of an h1> element, this rule would apply to both. 
