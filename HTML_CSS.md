@@ -169,3 +169,10 @@ th scope=”col”>Saturday /th
 *	Span or span> is the inline element that contains text you want to differentiate from the rest of the paragraph and can be identified and styled with CSS. 
 *	Iframes or iframe> are windows cut into your page. An example of this would be an embedded google map. To structure an iframe> you will need to know info for the attributes, src=”http://google.maps”, height=”350”, and width=”450”. 
 *	Meta data lives in the head> of your page and is not visible to users. It is simply information about your code such as description, keywords, author info, pragma (keeps browser from caching page), expires (notes when page should no longer be cached). 
+
+## Intro to CSS
+
+*	CSS or Cascading Style Sheets – allows you to create rules that specify how the content of an element should appear. One key to understanding CSS is to imagine that there is an invisible box around every HTML element. Remember that you can assign each element in your HTML a unique identifier that will help CSS determine what elements to apply your chosen styles to. 
+    -	A CSS rule contains two parts: a selector and a declaration. 
+    	*A selector indicates which element the rule applies to.
+	    A declaration indicates how that element should be styled. Declarations are split into two parts: the property and the value. The property is the aspect of the element you want to change, i.e. color, font, width, height, and border. The value specify the settings for the given property, i.e. for a property of color the value could be blue. You can specify multiple properties in one declaration by separating each with a semi-colon.
