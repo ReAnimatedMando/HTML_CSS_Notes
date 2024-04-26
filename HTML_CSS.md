@@ -176,3 +176,16 @@ th scope=”col”>Saturday /th
     -	A CSS rule contains two parts: a selector and a declaration. 
     	*A selector indicates which element the rule applies to.
 	    A declaration indicates how that element should be styled. Declarations are split into two parts: the property and the value. The property is the aspect of the element you want to change, i.e. color, font, width, height, and border. The value specify the settings for the given property, i.e. for a property of color the value could be blue. You can specify multiple properties in one declaration by separating each with a semi-colon.
+
+## Internal & External CSS
+
+*	External CSS means you are using a file separate the HTML file and must create a link within your HTML to your CSS. The CSS link lives inside the <head> of your HTML and uses 3 attributes. 
+    -	Href=”” – Specifies the path to the file with is often a css or styles folder. 
+    -	Type=”” – Specifies the type of document which is “text/css”.
+    -	Rel=”” – Specifies relationship between the HTML page and the linked file. Should always be a stylesheet.
+        *	An HTML page can use and be linked to multiple CSS style sheets. This can help when you want to specify one stylesheet for layout and another for presentation. 
+*	Internal CSS means you can also add CSS rules within your HTML page by using the <style> element. This needs a type=”” attribute of text/css. However, this method is only seen in older code and is not recommended because…
+    -	The code must be repeated for each element because it does not cascade. This is particularly bad when making multiple pages.
+    -	It also keeps the content separate from how the page looks. 
+    -	You cannot change across all pages and would have to make changes to each individual element on each page. 
+
