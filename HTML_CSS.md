@@ -199,3 +199,12 @@ th scope=”col”>Saturday /th
 *	Descendant selector – Matches an element that is a descendant of another specified element not just a direct child of that element. P a {} – targets any a> elements that sit inside a p> element, even if there are other elements nested between. 
 *	Adjacent sibling selector – Matches an element that is the next sibling of another. H1+p {} – targets the first p> element after any h1> element but not other p> elements.
 *	General sibling selector – Matches an element that is a sibling of another, although it does not have to be the directly preceding element. H1~p {} – if you had two p> elements that are siblings of an h1> element, this rule would apply to both. 
+
+## CSS Cascade
+
+*	CSS rules and how they cascade – If two or more rules apply to the same element there are ways to determine which will take precedence. 
+    -	Last rule – if the two selectors are identical, the latter will take precedence over the former. 
+    -	Specificity – The more specific rule will take precedence, i.e. p b is more specific than p.
+    -	Important – Labeling and property or value !important will make it more important than any other rule. Good for making changes to a single element after cascading general rules to make clean code. 
+*	Inheritance – In the instance of font, you can specify the font-family or color properties on the body> element and they will apply to most child elements. You can also force a lot of properties to inherit values from their parent elements by using inherit for the value of properties, i.e. padding: inherit; 
+    -	PG. 242 for resources
