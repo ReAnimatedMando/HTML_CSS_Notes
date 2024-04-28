@@ -208,3 +208,17 @@ th scope=”col”>Saturday /th
     -	Important – Labeling and property or value !important will make it more important than any other rule. Good for making changes to a single element after cascading general rules to make clean code. 
 *	Inheritance – In the instance of font, you can specify the font-family or color properties on the body> element and they will apply to most child elements. You can also force a lot of properties to inherit values from their parent elements by using inherit for the value of properties, i.e. padding: inherit; 
     -	PG. 242 for resources
+
+## Color in CSS
+
+*	Foreground color – Color properties can be expressed in 3 ways.
+    -	RGB value – rgb(100,100,90)
+    -	Hex codes – Preceded by a #, these 6-digit codes represent the amount of red, green, and blue in a color. #ee3e80.
+    -	Color Names – There are 147 color names that are recognized by browsers such as DarkCyan. 
+        *	It is not necessary to memorize these designations. 
+        *	/* comments in these symbols like in HTML are not visible to users and can help authors and collaborators understand your code */
+*	Background color – CSS treats HTML elements as if they’re in a box and the background-color property sets the background color for that box. i.e. body { background-color: DarkCyan;}. 
+    -	Color picking tools such as the ones found in photoshop, contain the RGB values as well as the #fcc00 hex code numbers for each color you highlight. 
+*	When picking background and foreground colors, it is imperative that you ensure that there is enough contrast for the text to be legible. A high contrast makes it easier for users to see text. For long spans of text, medium contrast can help with readability. 
+*	Opacity – a value given to a color with a number between 0.0 and 1.0, translating to 0%-100% opacity. i.e. background color: rgba(0,0,0,0.5), here the a is the opacity. 
+*	Hue, saturation, and lightness are also features you can apply to your css. i.e. background color: #c8c8c8; background color: hsla(0,100%,100%,0.5). Once again, the a in this code represents the a as being opacity. 
