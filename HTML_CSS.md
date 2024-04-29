@@ -222,3 +222,70 @@ th scope=”col”>Saturday /th
 *	When picking background and foreground colors, it is imperative that you ensure that there is enough contrast for the text to be legible. A high contrast makes it easier for users to see text. For long spans of text, medium contrast can help with readability. 
 *	Opacity – a value given to a color with a number between 0.0 and 1.0, translating to 0%-100% opacity. i.e. background color: rgba(0,0,0,0.5), here the a is the opacity. 
 *	Hue, saturation, and lightness are also features you can apply to your css. i.e. background color: #c8c8c8; background color: hsla(0,100%,100%,0.5). Once again, the a in this code represents the a as being opacity. 
+
+## Text
+
+*	Properties that control the appearance of text can be split into two groups.
+    -	Those that directly affect the font and its appearance.
+    -	Those that would have the same effect on text no matter what font you were using, including color and spacing between words and letters. 
+*	Typeface terms:
+    -	Serif – fonts have extra details on the ends of the main strokes of letters.
+    -	Sans-serif - fonts have straight ends to letters and are a much cleaner design. 
+    -	Monospace – Every letter is the same width. They align nicely and are used commonly in code. 
+    -	Weight – Font weight not only adds emphasis but can also affect the amount of white space and contrast on a page. 
+    -	Style – Italic fonts have a cursive aspect and Oblique fonts take the normal style and put it at an angle. 
+    -	Stretch – In condensed versions of the font, letters are thinner and closer together. In expanded versions they are thicker and further apart. 
+*	When choosing a typeface/font, it is important to understand that the browser will usually only display it if it’s installed on that user’s computer. So, sites often use a small set of typefaces that are installed on most computers. More than one can be specified in your code to act as backups. This is known as a font-family as is typed in HTML like font-family: Georgia, Times, Serif; 
+*	Font type scales are as follows:
+    -	Pixels – best way to size your text. Pixels are relative to the resolution of the screen, so the same type size will look larger on a higher resolution screen. 
+    -	Percentages – Default text size of a browser is 16. Using percentages of this amount gives you relatively larger and smaller text size. 
+    -	Ems – Similar to percentages. 
+*	Font-family limits you to the fonts available on users’ computers. @font-face allows you to use a font even if it is not installed on users’ computers. It does this by allowing you to specify a path to a copy of the font which will be downloaded to the user’s computer, so it is important that the font licensing allows it to be used in this way. 
+*	Text-transform – Used to change the case of text giving it one of three values.
+    -	Uppercase – text-transform: uppercase;
+    -	Lowercase
+    -	Capitalize
+*	Text-decoration – allows you to specify the following values.
+    -	None – removes any already applied
+    -	Underline
+    -	Overline
+    -	Line-through
+    -	Blink – animates text to make it flash on and off. 
+*	Line-height – leading is a term for vertical space between lines of text. It is measured from the bottom of the descender on one line to the top of the ascender on the next line. 
+    -	Descender – part of a letter that drops below the baseline.
+    -	ascender – highest point of a letter.
+*	Letter-spacing, word-spacing – kerning is the term for the space between each letter. Word spacing and letter spacing, and line height should be measured in em. 
+*	Text-align – allows control of alignment of text.
+    -	Left
+    -	Right
+    -	Center
+    -	Justify – every line in a paragraph, except the last line, should be set to take up the full width of the containing box. 
+*	Vertical-align – aligns relative to an image or box.
+    -	Baseline
+    -	Sub
+    -	Super
+    -	Top
+    -	Middle
+    -	Bottom
+*	Text-indent – allows you to indent the first line of text within an element. 
+*	Text-shadow – used to create a dropshadow.
+    -	Requires 3 lengths and a color as a value. i.e. 2px 2px 7px #111111. First length is how far to the left or right the shadow falls. Second length is distance top or bottom shadow should fall. Third length is optional and controls blur. Fourth is the color of the drop shadow. 
+    -	:first-letter, :first-line – can be used to add values to selected elements such as weight, style, size. 
+*	:link, :visited – browsers tend to show links in blue with an underline by default, and they will change colors of the links that have been visited. 
+    -	:link – allows you to set styles for links.
+    -	:visited – allows you to set styles for links that have been clicked on. 
+*	:hover, :active, :focus – pseudo classes that allow you to change the appearance of elements when a user is interacting with them.
+    -	:hover – Styles links and buttons when a user is hovering over them with a cursor. 
+    -	:active - Styles links and buttons when a user clicks on them to make them feel more interactive. 
+    -	:focus – Focus occurs when a browser discovers that you are ready to interact, i.e. when your cursor is in a form input ready to accept typing. 
+        *	Pseudo-classes should appear in this order.
+            -	:link, :visited, :hover, :focus, :active
+*	Attribute Selectors:
+    -	Pclass] – targets any p> element with an attribute called class. 
+    -	Pclass=”dog”] – targets any p> element with an attribute called class whose value is dog.
+    -	Pclass~=”dog”] – targets p> element with an attribute called class whose value is a list of space-separated words, one of which is dog.
+    -	Pattr^”d”] – targets any p> element with an attribute whose value begins with the letter “d”.
+    -	[attr*”do”] – targets any p> element with an attribute whose value contains the letters “do”.
+    -	Pattr$”g”] – targets any p> element with an attribute whose value ends with the letter “g”.
+
+##
