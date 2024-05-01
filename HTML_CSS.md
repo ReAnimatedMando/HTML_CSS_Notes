@@ -288,4 +288,61 @@ th scope=”col”>Saturday /th
     -	[attr*”do”] – targets any p> element with an attribute whose value contains the letters “do”.
     -	Pattr$”g”] – targets any p> element with an attribute whose value ends with the letter “g”.
 
-##
+## Borders
+
+*	Remember that your boxes are your elements, i.e. your <p>, <h>, and <div>… In CSS you can style each of these with the use of the following properties. 
+*	Height and width. Measured in px, %, or em. You can set a <div> to be 300px height and 400px width and then set a <p> within it to be 75% h and w and that <p> will be that percentage of the <div>.
+*	Limiting width with min-width, and max-width. This is so your page design will shrink and expand to fit the size of the users screen. 
+*	Limiting height with min-height and max-height. Same idea as width. 
+*	Overflow – Tells the browser what to do if the content contained within a box is larger than the box itself. 
+    -	Hidden – simply hides extra content that doesn’t fit in the box. 
+    -	Scroll- adds a scrollbar to the box so users can scroll to see the missing content. 
+*	Every box has three properties that can be adjusted to control its appearance.
+    -	Border – The border separates the edge of one box from another. Every box has a border visible or not. 
+    -	Margin – Sit outside the edge of the border and can be set to create a gap between the borders of two adjacent boxes. 
+    -	Padding – The space between the border of a box and any content contained within it. Can increase readability. 
+*	Border:
+    -	Border-width; value can be px or thin, medium, thick. You can control  individual size of borders using, border-top, border-right, border-bottom, border-left-width, i.e. border width: 2px 1px 1px 2px, and always goes top, right, bottom, left. 
+    -	Border-style; values.
+        *	Solid – a single solid line.
+        *	Dotted – series of square dots.
+        *	Dashed – series of short lines.
+        *	Double – two solid lines.
+        *	Groove – appears to be carved into page.
+        *	Ridge – appears to stick out from page.
+        *	Inset – appears to be embedded.
+        *	Outset – looks like it is coming out of screen.
+        *	Hidden/none – no border shown. 
+*	Can be individually styled top, left, right, bottom. 
+    -	Border-color – borders can be colored as a whole or individually using border-top, right, bottom, left-color. 
+    -	Shorthand border: 3px dotted #0088dd/darkcyan. Size, type, and color. 
+    -	Padding - How much space appears between  the content of an element and its border. Measured in px, %, or em. Can specify different values for top, right, bottom, and left. 
+    -	Margin – Controls gap between boxes. Measured in px, %, or em. Can specify different values for top, right, bottom, and left. 
+    -	Centering content – Box width must be set to center content. Setting left and right margins to auto will place the box an equal distance away on each side. Text-align should be set as you want it as it will inherit the parent properties. 
+    -	Changing inline/block. Display – allows you to turn an inline element into a block-level element or vice-versa. 
+        *	Inline – cause a block-level element to act like an inline element. 
+        *	Block – cause an inline element to act like a block-level element. 
+        *	Inline-block- combination
+        *	None – hides an element from the page. 
+*	block-level elements will sit side by side rather than starting on new lines. 
+        *	Visibility – self explanatory
+*	Hidden 
+*	Visible 
+    -	Border-image – takes a background image and slices it into nine pieces. 
+        *	Requires three pieces of information.
+*	URL of the image
+*	Where to slice image
+*	What to do with straight edges
+    -	Stretch
+    -	Repeat
+    -	Round
+    -	Box-shadow – allows you to add drop shadow around a box. Works just like text shadow. Must use at least the first two of following values and a color. 
+        *	Horizontal offset – negative values position the shadow to the left of the box.
+        *	Vertical offset – negative values position shadow to the top of the box.
+        *	Blur distance – if omitted, the shadow is a solid line like a border.
+        *	Spread of shadow – if used, a positive value will cause the shadow to expand in all directions, and a negative value will make it contract. 
+*	Inset can be used to create an inner shadow. 
+    -	i.e. box-shadow: 0 0 10px #gray
+        *	HO VO BD SOS
+    -	Border-radius – Allows you to create rounded corners. Can be individually specified top-right, bottom-right, bottom-left, top-left. 
+        *	Can use to create complex shapes using multiple values per radius. i.e. top-right: 80px 50px.
