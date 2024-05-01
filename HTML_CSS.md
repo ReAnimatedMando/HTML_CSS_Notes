@@ -290,8 +290,8 @@ th scope=”col”>Saturday /th
 
 ## Borders
 
-*	Remember that your boxes are your elements, i.e. your <p>, <h>, and <div>… In CSS you can style each of these with the use of the following properties. 
-*	Height and width. Measured in px, %, or em. You can set a <div> to be 300px height and 400px width and then set a <p> within it to be 75% h and w and that <p> will be that percentage of the <div>.
+*	Remember that your boxes are your elements, i.e. your p>, h>, and div>… In CSS you can style each of these with the use of the following properties. 
+*	Height and width. Measured in px, %, or em. You can set a div> to be 300px height and 400px width and then set a p> within it to be 75% h and w and that p> will be that percentage of the div>.
 *	Limiting width with min-width, and max-width. This is so your page design will shrink and expand to fit the size of the users screen. 
 *	Limiting height with min-height and max-height. Same idea as width. 
 *	Overflow – Tells the browser what to do if the content contained within a box is larger than the box itself. 
@@ -325,7 +325,7 @@ th scope=”col”>Saturday /th
         *	Inline-block- combination
         *	None – hides an element from the page. 
 *	block-level elements will sit side by side rather than starting on new lines. 
-        *	Visibility – self explanatory
+    -	Visibility – self explanatory
 *	Hidden 
 *	Visible 
     -	Border-image – takes a background image and slices it into nine pieces. 
