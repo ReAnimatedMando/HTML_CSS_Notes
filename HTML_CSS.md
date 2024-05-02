@@ -384,3 +384,38 @@ th scope=”col”>Saturday /th
 *	Text inputs and text areas.
 *	Submit buttons.
 *	Labels on forms to get the form controls to align nicely. 
+
+## Styling Text Inputs
+
+*Styling text buttons
+    -	Font-size – Sets size of text entered by user.
+    -	Color & background color – sets text color and sets background color of the input. 
+    -	Border – adds a border around the edge of the input box.
+    -	Border-radius – can be used to create rounded corners.
+    -	:focus – pseudo-class is used to change the background color of the text input when it is being used. 
+    -	:hover – pseudo-class applies the same styles when the user hovers over inputs.
+    -	Background image – adds a background image to the box. Because there is a different image for each input, we are using an attribute selector looking for the value of the id attribute on each input. 
+*	Styling submit buttons
+    -	Color – used to change the color of the text on the button.
+    -	Text-shadow – can give a 3d look to the text in browsers that support the property.
+    -	Border-bottom – had been used to make the bottom border of the button slightly thicker to give it a 3d feel. 
+    -	Background-color – can make the button stand out. Being consistent with colors and styles across pages can help users learn to navigate your pages more easily. 
+    -	:hover – pseudo-class used to change the buttons appearance when users hover over it. 
+*	Fieldsets and legends – Helpful in determining the edges of a form. In a long form they can help group together related information within it. Legends are used to indicate what information is required in the fieldset. Properties commonly used with these two elements are…
+    -	Width
+    -	Color
+    -	Background-color
+    -	Border
+    -	Border-radius
+    -	Padding
+*	Cursor – allows you control over the type of mouse cursor that should be displayed to users. Commonly used values are…
+    -	Auto
+    -	Crosshair
+    -	Default
+    -	Pointer
+    -	Move
+    -	Text
+    -	Wait
+    -	Help
+    -	url(“cursor.gif”); 
+
