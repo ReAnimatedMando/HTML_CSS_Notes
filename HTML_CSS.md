@@ -346,3 +346,34 @@ th scope=”col”>Saturday /th
         *	HO VO BD SOS
     -	Border-radius – Allows you to create rounded corners. Can be individually specified top-right, bottom-right, bottom-left, top-left. 
         *	Can use to create complex shapes using multiple values per radius. i.e. top-right: 80px 50px.
+
+## Lists, Tables, & Forms
+
+*	list-style-type – Allows you to control the shape or style of a bullet point/marker. Applies to <ol>, <ul>, & <li>.
+    -	For <ul> you can use….
+        *	None, disc, circle, or square.
+    -	For <ol> you can use…
+        *	Decimal, decimal-leading-zero, lower-alpha, upper-alpha, lower-roman, upper-roman. 
+*	list-style-image – you can also specify an image to act as a bullet point using an image. list-style-image: url(“images/star.png”);
+*	list-style-position – Lists are indented into the page by default. This property indicates whether the marker should be on the inside or the outside of the box containing the main points. List-style-position: outside; list-style-position: inside;
+*	list-style – Shorthand, list-style: allows you to express the markers’ style, image, and position in any order. 
+*	Table Properties:
+    -	Width – sets width of table.
+    -	Padding – to set the space between the border of each table call and its content. 
+    -	Text-transform – to convert the content of the table headers to uppercase. 
+    -	Letter-spacing, font-size – to add additional styling to the content of the table headers. 
+    -	Border-top, border-bottom – to set borders above and below the table headers. 
+    -	Text-align – to align the writing to the left of some table cells and to the right of the others. 
+    -	Background-color – to change the background color of the alternating rows.
+    -	.hover – to highlight a table row when a user’s mouse goes over it. 
+*	Property tips:
+    -	Give cells padding – adding padding helps improve readability.
+    -	Distinguish headings – Style in bold, make uppercase, underline, and add a background color to distinguish headings. 
+    -	Shade alternate rows – shading every other row can help users follow along the lines. 
+    -	Align numerals – you can use text-align to align content of any column that contains numbers to the right.
+*	Empty-cells – you can use this property to specify if you want the borders of empty cells to be shown.
+    -	Empty-cells: show; or empty-cells: hide;
+    -	Inherit can be used if you have one table nested inside another.
+*	Border-spacing, border-collapse:
+    -	 Collapse – borders are collapsed into a single border where possible.
+    -	Separate – Borders are detached from each other and given space that is specified… 5px 15px.
