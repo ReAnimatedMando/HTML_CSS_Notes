@@ -377,3 +377,10 @@ th scope=”col”>Saturday /th
 *	Border-spacing, border-collapse:
     -	 Collapse – borders are collapsed into a single border where possible.
     -	Separate – Borders are detached from each other and given space that is specified… 5px 15px.
+
+## Styling Forms
+
+* Styling forms to make them easier and maybe even more fun to use is a great way to attract users. Common elements to style include.
+*	Text inputs and text areas.
+*	Submit buttons.
+*	Labels on forms to get the form controls to align nicely. 
