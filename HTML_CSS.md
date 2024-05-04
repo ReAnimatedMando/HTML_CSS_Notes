@@ -419,3 +419,83 @@ th scope=”col”>Saturday /th
     -	Help
     -	url(“cursor.gif”); 
 
+## Layout
+
+* Controlling position of elements, creating site layouts, designing for different sized screens.
+*	Building blocks – CSS treats each HTML element as if it is in its own box. This box will either be a block-level box or an inline-box.
+    -	Block-level elements – start on a new line.
+        *	h1>
+        *	p>
+        *	ul>
+        *	li>
+    -	Inline elements – Flow between surrounding text.
+        *	img>
+        *	b>
+        *	i>
+*	Containing elements – If one block-level element sits inside another block-level element then the outer box is known as the containing or parent element.
+    -	It is common to group a number of elements together inside a div> (or other block-level) element. These div> elements could be the header, main content, or the footer, and are all contained in the body>. 
+        *	A box may be nested inside several other block-level elements. The containing element is always the direct parent of that element. 
+*	Controlling the position of elements – CSS has positioning schemes that allow you to control the layout of a page. 
+    -	Normal flow – Every block-level element appears on a new line, causing each item to appear lower down the page than the previous one. This is the default behavior unless otherwise specified. One after the other, vertically down the page. 
+        *	position:static. Since this is the default way browsers treat HTML elements, you do not need a CSS property.
+    -	Relative positioning – This moves the element from the position it would be in normal flow, shifting it to the top, right, bottom, or left of where it would have been placed. This does not affect the position of surrounding elements; they stay in the position they would be in normal flow. 
+        *	position:relative. You can move an element anywhere in relation to where it would be in normal flow. 10px lower, 20% to the right. Top, bottom, left, or right are the properties you would use to offset the element. 
+    -	Absolute positioning – This positions the element in relation to its containing element. It is taken out of normal flow, meaning that it does not affect the position of any surrounding elements (as they ignore the space it would have taken up). Absolutely positioned elements move as users scroll up and down the page. 
+        *	position:absolute. Properties are top, bottom, left, or right. You can separate a heading by setting it 500px left with width of 250px and setting width of the paragraph at 450px. These elements will not overlap. 
+    -	Fixed positioning – This is a form of absolute positioning that positions the element I relation to the browser window, as opposed to the containing element. Elements with fixed positioning do not affect the position of surrounding elements and they do not move when the user scrolls up or down. 
+        *	position:fixed. Using margin for the p> is good to start the p> below where the h1> is fixed so that it won’t overlap at the top.
+    -	Floating elements – Floating an element allows you to take that element out of normal flow and position it to the far left or right of a containing box. The floated element becomes a block-level element around which other content can flow. 
+        *	float. Always use the width property with float. This is great for adding blockquote> element to p> and having it sit to the right or left of the p>.  
+        *	Float can be used to place boxes (p>), next to each other. 
+        *	.clear property allows you to say that no element (within the same containing element), should touch the left or right-hand sides of a box. The values can be left, right, both, and none. .clear properties require a class=”clear” in its HTML id.  Page 372
+        *	Parents of floated elements problem. If a containing element only contains floated elements, some browsers will treat it as if it is 0px. Causing border properties to disappear. This is solved with the overflow and width properties in CSS. So, to a border you would add { border: 1px solid #665544; overflow: auto; width: 100%;
+        *	Multi-column layouts are achieved with div> representing each column and each given a corresponding class. div class=”column1of2”> the CSS being .column1of2 and having the properties of width, float, and margin.
+*	Width sets width of identified columns.
+*	Float positions the columns next to each other.
+*	Margin creates a gap between the columns.
+    -	When you move any element from normal flow, boxes can overlap. The z-index property allows you to control which box appears on top.
+*	Place z-index property in the element you want to sit on top. The element with a z-index of the highest number will take priority over elements with z-indexes of a lower number.
+*	Screen sizes – Your design needs to be able to work on a range of different sized screens. 
+    -	resolution – refers to the number of dots a screen shows per inch. Resolutions change according to users. 
+        *	Iphone 4 – size=3.4 inches, resolution=960 x 640 px
+        *	Ipad 2 – size=9.7”, resolution=1024 x 768 px
+        *	13” Macbook – size=13.3”, resolution=1280 x 800 px
+        *	27” iMac – size=27”, resolution=2560 x 1440 px
+    -	Page sizes – designers try to stay in a range of 960 x 1000 px wide. Most users will be able to see designs this wide. Because of the wide range of screen sizes, designers know that some users will need to scroll, and are likely to do so if interested in the content. However, it is still wise to design your page to show interest in the first 570-600 px and entice scrolling with teases towards the bottom of this range. 
+*	Fixed width layouts – do not change size as the user increases or decreases the size of their window.
+    -	Advantages
+        *	Px values are accurate at controlling size and positioning of elements.
+        *	Designer has greater control over appearance and position of items on the page.
+        *	Can control the lengths of lines and of text regardless of the size of user’s window.
+        *	The size of an image will always remain the same relative to the rest of the page.
+    -	Disadvantages
+        *	You can end up with big gaps around the edge of a page.
+        *	If user resolution is much higher the page can look smaller and be hard to read. 
+        *	If user increases font size, text might not fit into designated spaces. 
+        *	Design works best on devices that have a site or resolution similar to that of the desktop or laptop.
+        *	Page will often take up more vertical space than a liquid layout with the same content. 
+*	Liquid layout – designs stretch and contract as the user increases or decreases the size of their browser window. They tend to use percentages. 
+    -	Advantages
+        *	Pages expand to fill the entire browser window so there are no spaces around the page on a larger screen.
+        *	Page can contract to fit users’ smaller windows without them having to scroll to the side. 
+        *	Design is tolerant of users setting font sizes larger than the designer intended.
+    -	Disadvantages
+        *	Must control width of sections or the design can look very different than intended with gaps or squashing. 
+        *	If user has a wide window, lines of text can become very long, making them hard to read. 
+        *	If user has a narrow window, lines of text can become squashed, and few words will occupy a line. 
+        *	Fixed items like images can be overflow into text if the window is made too small by the user. 
+*	Some of these issues can be solved by giving some elements max and min widths while others will be allowed to be liquid. 
+*	Layout Grids – Composition is the placement or arrangement of visual elements/how they are organized on a page. Designers use grid structures to help them position items on a page. Grids set consistent proportions and spaces between items which helps to create professional looking designs. 
+    -	Grids create continuity between different pages which may use different designs.
+    -	Help users predict where to find information on various pages.
+    -	Make it easier to add new content to the site in a consistent way.
+    -	Helps people collaborate on the design of a site in a consistent way. 
+        *	Examples of possible layouts on page 389-392.
+    -	CSS frameworks aim to make your life easier by providing the code for common tasks, such as creating layout grids, styling forms, creating printer-friendly versions	of pages and so on. You can include the CSS framework code in your projects rather than writing the CSS from scratch. 
+*	Multiple Style Sheets – Some web page authors split their CSS style rules into separate style sheets. For example, they might use one to control the layout and another to control fonts, colors and so on. Some authors take an even more modular approach to stylesheets, creating separate stylesheets to control typography, layout, forms, tables, even different styles for each sub-section of a site. 
+    -	There are two ways to add multiple style sheets to a page.
+        *	Your HTML page can link to one style sheet and that stylesheet can use the @import rule to import other style sheets.
+*	If a stylesheet uses the @import rule, it should appear before the other rules. 
+    -	In the HTML you can use a separate link> element for each stylesheet. 
+*	This link> always goes in the head> element of your HTML. 
+
