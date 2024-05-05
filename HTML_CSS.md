@@ -528,3 +528,35 @@ th scope=”col”>Saturday /th
     -	Page 417-18
 *	CSS gradients – background-image and then specify the two colors that the gradient falls between. 
 *	If you want to overlay text on a background image, the image must be low contrast in order for the text to be legible. 
+
+## New HTML5 elements
+
+*   Using class or id attributes to indicate the role of a div> element in the structure of a page is commonplace. However, HTML5 has introduced a new set of elements that allow you to divide up the parts of a page. The names of these elements indicate the kind of content you will find in them. Some of these elements are. 
+*	header>, nav>, article>, aside>, footer>, 
+    -	So opposed to having  div> after div> with classes such as  div id”=header/article/footer”> div />, one div id=”page”> can cont ain the header> and nav> elements in its own without sub div>’s. 
+    -	The point of creating these new elements is so that the web page authors can use them to help describe the structure of the page. For example, screen reader software might allow users to ignore headers and footers and get straight to the content. Similarly, search engines might place more weight on the content in an article> element than that in the header>, or footer> elements. It also makes the code easier to follow. 
+        *	header> and footer> elements can be used for the main header and footer that displays on every page or each individual article or section can have their own header and footer element. 
+    -	nav> elements are used to contain the major navigational blocks on the site such as the primary site navigation.
+        *	Some Devs use nav> elements for the links that appear at the bottom of a page such as, privacy policy, terms and conditions, and accessibility information. 
+    -	article> element acts as a container for any section of a page that could stand alone and potentially be syndicated. 
+        *	These can be individual articles, blog post entries, comments, or forum posts. Any independent piece of content. 
+        *	If a page contains several articles or such, each would have to live inside its’ own article> element. 
+        *	article> can even have other article> elements nested inside of it, in its own child article> elements. i.e. comment sections on a given article or blog post. 
+    -	aside> element has two purposes, depending on whether it is inside an article> element or not. 
+        *	When inside an article> it should contain information related to the article but not essential to its overall meaning. A pull-quote or glossary for example. 
+        *	When outside an article>, it acts as a container for content that is related to the entire page. Such as, links to other sections of the site, a list of recent posts, a search box, or recent tweets/posts by the author. 
+    -	section> groups related content together, and typically each section would have its own heading. 
+        *	There can be several section> elements	to contain different sections such as, latest news, top products, and newsletter signup.
+        *	section> elements can contain related article> elements with common themes and purposes. 
+        *	section> should not be used as a wrapper for the entire page. That is still a job for a div>.
+    -	hgroup> For grouping headers, h1> through h6>.
+    -	figure> and figcaption> - Used to contain any content that is referenced from the main flow of an article. i.e.
+        *	Images
+        *	Videos
+        *	Graphs
+        *	Diagrams
+        *	Code samples
+        *	Text that supports the main body of an article
+    -	figcaption> should always accompany a figure> element to provide a text description of the figure> element. 
+    -	div> Will remain an important way to group together related elements, because you should not be using these elements for any purpose other than explicitly stated. 
+    -	HTML 5 also allows web page authors to place an a> element around a block level element that contains child elements. This allows you to turn an entire block into a link. 
