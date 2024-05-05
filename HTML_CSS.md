@@ -499,3 +499,32 @@ th scope=”col”>Saturday /th
     -	In the HTML you can use a separate link> element for each stylesheet. 
 *	This link> always goes in the head> element of your HTML. 
 
+## Images
+
+*   Controlling size of images in CSS, aligning images in CSS, adding background images. 
+*	Control image size using the width and height properties in CSS. Specifying image size in CSS will help your page load faster. Being consistent with your image sizes is very helpful. Having your product images match, as well as banners, featured photos, etc. Some ranges include small portrait – 220x360, small landscape – 330x210, and feature – 620x400. When designing your site, you should first determine the sizes of images that will be used and give each size a name such as, small, medium, and large. These sizes can be used in the class= element of your html in place of width and height and will later be specified in your CSS. PAGE; 409. 
+*	Aligning images – You can use the float property to align images. You can add an align-left or right to your class in HTML as well as the size identifier, i.e. class=”align-right medium”; It is also a good idea to add a margin to the image so that it doesn’t touch the text around it. 
+*	Centering images – by default, images are inline elements. This is changed by turning it into a block-level element by using the display property in CSS to be able to center the image. Once your image is set to display: block; it can be centered using the text-align property and giving it a value of center. 
+*	Background-image – Background images can be placed behind any HTML and cover the entire background or just parts/grids/blocks. This is achieved using the background-image: property with a value that is a URL(“images/folder.gif”). Adding this property to the body will cover the entire background, and adding it to a p or paragraph will only cover that block. 
+*	Repeating images – The background-repeat can have four values.
+    -	Repeat – the background image is repeated both horizontally and vertically. Default
+    -	Repeat-x – the image is repeated horizontally only.
+    -	Repeat-y - the image is repeated vertically only.
+    -	No-repeat – the image is only shown once.
+*	Background-attachment – property specifies whether a background image should stay in one position or move as the user scrolls up or down the page. It can have one of two values.
+    -	Fixed – the background image stays in the same position on the page.
+    -	Scroll – the background image moves up and down as the user scrolls up and down the page. 
+*	background-position – When not being repeated, you can use the background position property to specify where in the browser window the background image should be placed. This property usually has two values, the first represents the horizontal position and the second represents the vertical position. i.e. left top, left center, left bottom, right top, center center. Only specifying one value will result in the second value defaulting to center. Percentages and pixels can also be used for more exact positions in relation to the edges of the page. 
+*	Background shorthand will show in this order
+    -	Background-color
+    -	Background-image
+    -	Background-repeat
+    -	Background-attachment
+    -	background-position
+        *	i.e. div {
+*	background: #ffffff url(“”) no-repeat top right
+*	Image rollovers & Sprites – Using CSS it is possible to create a link or button that changes to a second style when a user moves their mouse over it(known as rollover) and a third style when they click on it. This can be done by setting a background image for the link or button that has three different styles of the same button but only allows enough space to show one of them at a time. 
+    -	Sprites are when a single image is used for different parts of the interface. Can make loading faster. 
+    -	Page 417-18
+*	CSS gradients – background-image and then specify the two colors that the gradient falls between. 
+*	If you want to overlay text on a background image, the image must be low contrast in order for the text to be legible. 
