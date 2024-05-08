@@ -560,3 +560,75 @@ th scope=”col”>Saturday /th
     -	figcaption> should always accompany a figure> element to provide a text description of the figure> element. 
     -	div> Will remain an important way to group together related elements, because you should not be using these elements for any purpose other than explicitly stated. 
     -	HTML 5 also allows web page authors to place an a> element around a block level element that contains child elements. This allows you to turn an entire block into a link. 
+
+## Process & Design
+
+*   How to approach building a site, understanding your audience and their needs, & how to present information visitors want to see. The following is a process that you can use when you are creating a new website. 
+*	Who is the site for?
+    -	It can be helpful to ask some questions about the people you would expect to be interested in the subject of your site. 
+    -	Clients, when asked, will commonly say “the entire world”. Unlikely!
+    -	Even if the subject of your site casts a wide net, your unlikely to be visited by users from other countries, and you can still think about the demographics of a sample of the target audience. 
+    -	Target audience individuals:
+        *	What is the age range?
+        *	Will your site appeal to more women or men? What is the mix?
+        *	Users’ country?
+        *	Do users live in rural or urban areas?
+        *	Average income of users?
+        *	Level of education?
+        *	Marital or family status?
+        *	Occupation?
+        *	Hours of work per week?
+        *	Web usage?
+        *	What kind of device is your target audience likely to be using to access your site?
+    -	Target audience companies:
+        *	Company size?
+        *	Relevant department?
+        *	Position of people in the company using your site?
+        *	Using for themselves or someone else?
+        *	How large is the budget they control? 
+    -	You can invent some fictional visitors from your typical target audience. They will become your friends during the design process and can influence design decisions from color palettes to level of detail in descriptions. 
+        *	i.e.
+            -	Gordon, Male, age 28, from Chicago, teacher making 62k/yr, web usage 2-3 days/wk.
+            -	Molly, F, age 47, from San Francisco, attorney making 180k/yr, web usage daily. 
+            -	Jasper, M, age 19, from New York, student making 24k/yr, web usage daily. 
+                *	If you have questions about the sites’ usage, you can go back and ask yourself, “what would Molly want in this situation”?
+*	Why people visit your website?
+    -	Your content and design should be influenced by the goals of your users. 
+    -	There are two basic categories of questions you can ask to determine why people are coming to your website. 
+        *	Key Motivations
+            -	Are they looking for general entertainment or do they need to achieve a specific goal?
+            -	If there is a specific goal, is it a professional or personal one?
+            -	Do they see spending time on this activity as essential or a luxury?
+        *	Specific Goals
+            -	Do they want general information/research (such as background on a topic/company), or are they after something specific (such as a particular fact or information on a product)?
+            -	Are they already familiar with your service/product? Or do they need to be introduced to it?
+            -	Are they looking for time sensitive information, such as the latest news/updates on a particular topic?
+            -	Do they want to discover information about a specific product or service to help them decide whether to buy it or not?
+            -	Do they need to contact you? If so, can they visit in person (which might require opening hours and a map)? Or might they need an email or telephone contact details?
+*	What are your visitors trying to achieve?
+    -	Looking for key tasks and motivations can help guide your site design.
+    -	First create a list of reasons why people would be visiting your site. Then you can assign the list of tasks to the fictional visitors you created earlier in the process.
+        *	Gordon loves to play tennis and has had one for several years. Now he has a girlfriend that he is introducing to the sport and wants to buy her one. 
+        *	Molly, after reading about your doggy daycare service in the paper, wants to find out if it would be suitable for her. 
+        *	Jasper had a bad experience at a hotel and now wants to post a complaint. 
+*	What information do your visitors need?
+    -	What information do your visitors need in order to achieve their goals quickly and easily?
+    -	Look at each reason why people are visiting your site and determine what they need to achieve their goals. 
+    -	You can prioritize levels of information from key points down to non-essential or background information. 
+    -	By ensuring that you provide the information that your visitors are looking for, they will consider your site more relevant to them. Then you will have an opportunity to tell them any extra information that you think would be helpful to them or expose them to additional products and services you may be promoting. 
+        *	Failure to do this means that they will go elsewhere.
+    -	Key information:
+        *	Will visitors be familiar with your subject area/brand, or do you need to introduce yourself?
+        *	Will they be familiar with the product/service/information you are covering, or do they need background information?
+        *	What are the most important features of what you are offering?
+        *	What is special about what you offer that differentiates you from other sites that offer something similar?
+        *	Once people have achieved the goal that sent them to your site, are there common questions people ask about this subject area?
+*	How often will people visit your site?
+    -	Some sites benefit from being updated more frequently than others. Some information (such as news) may be constantly changing, while other content remains relatively static. 
+*	Questions to help decide how often to update your website content…
+    -	Goods/services
+        *	How often do the same people return to purchase from you?
+        *	How often is your stock updated or your service changed?
+    -	Information
+        *	How often is the subject updated?
+        *	What percentage of your visitors would return for regular updates on the subject, compared with those who will just need the information once?
