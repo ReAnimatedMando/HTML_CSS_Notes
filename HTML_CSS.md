@@ -650,3 +650,12 @@ th scope=”col”>Saturday /th
     -	It is worth noting that the site owner might organize information in a way that is different to what the public expects. It is important to reflect the public’s understanding of the subject (rather than just the site owner’s understanding of it).
         *	Example site map pg. 462
 
+## Wireframes
+
+*   A simple sketch of the key information that needs to go on each page of a site.
+    -   Shows the hierarchy of information and how much space it might require.
+*	Building wireframes of your site involves sketching or shading areas where each element of the page will go, such as, logo, primary navigation, headings and main bodies of text, user logins, etc. 
+*	Don’t include color scheme, font, background, or images in the wireframe. Your focus should be on what information needs to be on each page and create a visual hierarchy to indicate the most important parts of each page. 
+*	Showing wireframes to clients is more helpful than showing them a design. This way they can focus on the function instead of how the site looks. 
+    -	Example wireframe pg. 464
+
