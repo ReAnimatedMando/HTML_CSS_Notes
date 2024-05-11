@@ -659,3 +659,32 @@ th scope=”col”>Saturday /th
 *	Showing wireframes to clients is more helpful than showing them a design. This way they can focus on the function instead of how the site looks. 
     -	Example wireframe pg. 464
 
+##  Getting Your Message across using design
+
+*   The primary aim of any kind of visual design is to communicate. Organizing and prioritizing information on a page helps users understand its importance and what order to read it in.
+*	Content – web pages often have a lot of information to communicate. 
+    -	A masthead or logo
+    -	Links to navigate the site
+    -	Links to related content and other popular articles
+    -	Login or membership options
+    -	Ability for users to comment
+    -	Copyright information
+    -	Links to privacy policies, terms and conditions, advertising information, RSS feeds, subscription options
+*	Prioritizing – if everything on a page appeared in the same style, it would be much harder to understand. Key elements would not stand out. 
+    -	By making parts of the page look distinct from surrounding content, designers draw attention to (or away from) those items.
+    -	Designers create something known as a visual hierarchy to help users focus on the key messages that will draw people’s attention, and then guide them to subsequent messages. 
+*	Organizing – grouping together related content into blocks or chunks makes the page look simpler and easier to understand. 
+    -	Users should be able to identify the purpose of each block without processing each individual item. 
+    -	By presenting certain types of information in a similar/consistent visual style (such as using the same style for all buttons or all links), users will learn to associate that style with a particular type of content. 
+*	Visual hierarchy 
+    -	Attention is immediately drawn to a picture that shows the service this company offers and a headline to explain it. The size and colored background reinforce that this is the primary message on the page. 
+    -	Below in smaller groups would be the details should the service appeal to the user.
+*	Grouping 
+    -	Chunks of information
+        *	Logo and nav is one
+        *	Information about company services is another
+        *	Broken down details about services and products is a third. 
+*	Similarity 
+    -	Consistent headings and styles. 
+    -	Consistent icons
+    -	Consistent colored links 
