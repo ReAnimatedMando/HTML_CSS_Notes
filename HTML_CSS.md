@@ -688,3 +688,12 @@ th scope=”col”>Saturday /th
     -	Consistent headings and styles. 
     -	Consistent icons
     -	Consistent colored links 
+
+##  Visual hierarchy
+
+*   Most users do not read entire pages, instead they skim to find information. Use contrast to create a visual hierarchy that gets your key message across and helps users find what they are looking for.
+*	Size – larger elements will grab users’ attention first. This is why headings and key points are relatively large.
+*	Color – foreground and background color can draw attention to key messages. Brighter sections tend to draw users’ attention first. 
+*	Style – an element may be the same size and color as surrounding content but have a different style applied to it to make it stand out. 
+    -	These 3 in order create the visual hierarchy. However, there is one element that will often attract the eye first and can say more for your page than an entire page of text. 	
+        *	IMAGES
