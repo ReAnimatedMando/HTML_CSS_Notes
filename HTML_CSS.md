@@ -697,3 +697,16 @@ th scope=”col”>Saturday /th
 *	Style – an element may be the same size and color as surrounding content but have a different style applied to it to make it stand out. 
     -	These 3 in order create the visual hierarchy. However, there is one element that will often attract the eye first and can say more for your page than an entire page of text. 	
         *	IMAGES
+
+##  Grouping & Similarity
+
+*   When making sense of a design, we tend to organize visual elements into groups. Grouping related pieces of information together can make a design easier to comprehend.
+*	Proximity – when several items are placed close together, they are perceived as more related than items placed farther apart.
+*	Closure – when faced with a complicated arrangement of items, we will often look for a single or recognizable pattern or form. A real or imaginary box can be formed around elements due to their proximity and alignment. 
+*	Continuance – when elements are placed in a line or a curve then they are perceived to be more related than those that are not following the same direction. This can be used to direct the reader from one part of a page to the next. 
+*	White space – placing related items closer together and leaving a bigger gap between related items.
+*	Color – a background color placed behind related items to emphasize their connection.
+*	Borders – a line can be drawn around the border of the group or between it and its neighbors. 
+    -	We naturally observe similarities in design, and things that are similar are perceived to be more related than things that are dissimilar. Repetition of similar color, size, orientation, texture, font, or shape, suggest that matching elements have a similar importance or meaning. 
+        *	Consistency – makes it possible that having read one block of your page, it is possible to infer the meaning of other related items in that box that follow the same style. 
+        *	Headings – giving a chunk of information a heading clearly tells the user whether or not the content of the grouping is relevant to them. If not, they can ignore all of the elements within it. This is also helpful for users with screen readers. 
