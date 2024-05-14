@@ -710,3 +710,14 @@ th scope=”col”>Saturday /th
     -	We naturally observe similarities in design, and things that are similar are perceived to be more related than things that are dissimilar. Repetition of similar color, size, orientation, texture, font, or shape, suggest that matching elements have a similar importance or meaning. 
         *	Consistency – makes it possible that having read one block of your page, it is possible to infer the meaning of other related items in that box that follow the same style. 
         *	Headings – giving a chunk of information a heading clearly tells the user whether or not the content of the grouping is relevant to them. If not, they can ignore all of the elements within it. This is also helpful for users with screen readers. 
+
+##  Designing Navigation
+
+*   Site navigation not only helps people find where they want to go, but also helps them udnerstand what your site is about and how it is organized. Good navigation tends to follow these principles.
+*	Concise – ideally, the navigation should be quick and easy to read. It is a good idea to limit the number of options in a menu to no more than eight links. These can link to section homepages which in turn link to other pages. 
+*	Clear – users should be able to predict the kind of information that they will find on the page before clicking on the link. Where possible, choose single descriptive words for each link rather than phrases.
+*	Selective – the primary navigation should only reflect the sections or content of the site. Functions like logins and search, and legal information like terms and conditions and so on are best placed elsewhere on the page. 
+*	Context – good navigation provides context. It lets the user know where they are in the website at that moment. Using a different color or some kind of visual marker to indicate the current page is a good way to do this. 
+*	Interactive – each link should be big enough to click on and the appearance of the link should change when the user hovers over each item or clicks on it. It should also be visually distinct from other content on the page. 
+*	Consistent – the more pages a site contains, the larger the number of navigation items there will be. Although secondary navigation will change from page to page, it is best to keep the primary navigation exactly the same. 
+    -	A large site may have primary, secondary, and even tertiary navigation. primary navigation often appears across the top of the site from left to right, or down the left hand side of the page. secondary navigation could be under the primary navigation or down the side of the page. Tertiary navigation often sits  in the footer of the page. The menu will not be the only way users navigate the site. They will also use links within each page. Some sites also offer a search function. 
