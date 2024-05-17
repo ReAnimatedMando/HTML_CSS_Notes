@@ -721,3 +721,51 @@ th scope=”col”>Saturday /th
 *	Interactive – each link should be big enough to click on and the appearance of the link should change when the user hovers over each item or clicks on it. It should also be visually distinct from other content on the page. 
 *	Consistent – the more pages a site contains, the larger the number of navigation items there will be. Although secondary navigation will change from page to page, it is best to keep the primary navigation exactly the same. 
     -	A large site may have primary, secondary, and even tertiary navigation. primary navigation often appears across the top of the site from left to right, or down the left hand side of the page. secondary navigation could be under the primary navigation or down the side of the page. Tertiary navigation often sits  in the footer of the page. The menu will not be the only way users navigate the site. They will also use links within each page. Some sites also offer a search function. 
+
+##  Practical Information
+
+*   Search engine optimization, using analytics to understand visitors, and putting your site on the web.
+*	Search Engine Optimization (SEO)
+    -	The basics: SEO is the practice of trying to help your site appear nearer the top of search engine results when people look for the topics that your website covers. 
+    -	At the heart of SEO is the idea of working out which terms people are likely to enter into a search engine to find your site and then using these terms in the right places on your site to increase the chances that search engines will show a link to your site in their results.
+    -	Search engines look at what appears on your site, as well as how many sites link to you and how relevant those links are. For this reason, SEO is often split into two areas:
+        *	On-page techniques
+            -	Methods you can use on your web page to improve their ratings on search engines. The main component being the keywords people are likely to enter into a search engine to find your site, these keywords then being included in the text and HTML code for your site in order to help the search engine know that your site covers these topics. Search engines rely heavily on text in your pages, for example, ensuring that any images have appropriate text value of their alt”” attributes. 
+            -	In every page of your website there are 7 key places where keywords can appear in order to improve findability.
+                *	Page title: title> element within the head> that appears in the tab or top of the browser window.
+                *	URL/web address: Where possible, use keywords in the file name as this is part of the URL.
+                *	Headings: Keywords in the h1> element let a search engine know what a site is all about. 
+                *	Text: Repeating keywords in the main body of the text at least 2-3 times helps.
+                *	Link Text: Use keywords in the text that create links between pages (as opposed to generic phrases like, “click here”). 
+                *	Image alt””: providing accurate description in your image alt attributes helps your images show in image based searches. 
+                *	Page Description: Also in the head> element, the meta> element should be a sentence that describes the content of the page. 
+    -	Identifying Keywords and Phrases:
+        *	Brainstorm: Make a list. Ask yourself and others what words they may use when searching for a particular subject. 
+        *	Organize: Group keywords into separate lists for the different sections or categories of your website. 
+        *	Research: adwords.google.co.uk/select/keywordtoolexternal, www.wordtracker.com, and www.keyworddiscovery.com, are a few tools available where you can enter your keywords and they will suggest more.
+        *	Compare: Look at the competition for your terms. It’s unlikely that your site will appear at the top for every keyword. 
+        *	Refine: Now pick which keywords you will focus on. 
+        *	Map: Pick 3-5 for each page you have mapped out and incorporate them. 
+*	Analytics: Learning about your visitors. 
+    -	Using google analytics, you can immediately start analyzing how users are finding your site, what they are looking at, and when they are leaving. The overview page tells you a lot about your visitors. 
+*	Domain Names & Hosting:
+    -	Domain names: your domain name is your web address. Usually an annual fee, domain name must be available. Lots of domain name sites also offer web hosting. 
+    -	Web hosting. Most sites live on web servers run by web hosting companies. When choosing a web hosting company you should consider…
+        *	Disk space: total size of all files that make up your site (HTML &CSS).
+        *	Bandwidth: Amount of data the hosting company will send to your site’s visitors.
+        *	Backups: Check in the company performs backups on your site and how often. Some sites offer access to backups which can be helpful if you make a mistake when updating it. 
+        *	Email Accounts: Most host companies will provide email servers. Check the size of mailbox you’re allowed and the number you can use. 
+        *	Server-side languages and databases: If you’re using a content management system, it will likely use a server-side programming language and a database (like PHP with MySQL). Be sure your hosting company supports the tech your software needs to run. 
+*	FTP & 3rd party tools
+    -	File Transfer Protocol allows you to transfer files across the internet from your computer to the web server hosting your site. When purchasing your web hosting, you’ll be given FTP details that you enter into your FTP program in order to connect to the server. Usually this will be an address such as ftp://mydomain.com, a username, and a password. It is important to keep this information secure to prevent strangers from gaining access to your server. 
+        *	FTP applications:
+            -	FileZilla
+            -	FireFTP
+            -	CuteFTP
+            -	SmartFTP
+            -	Transmit
+        *	3rd party tools:
+            -	Blogs – wordpress, tumblr, posterous
+            -	E-commerce – shopify, bigcartel, go.magento
+            -	Email newsletters – campaignmonitor, mailchimp
+            -	social networking sharing buttons – addthis, addtoany
